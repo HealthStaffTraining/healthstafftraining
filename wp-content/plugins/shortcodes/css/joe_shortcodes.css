@@ -1,0 +1,82 @@
+#anthem_assessment_contain
+{
+	position: relative;
+	margin: 0px 0px 20px 0px;
+	width: 620px;
+	height: 405px;
+	background-image: url(../images/CA_background.jpg);
+	background-repeat: no-repeat;
+}
+
+#anthem_assessment_one
+{
+	position: absolute;
+	top: 70px;
+	left: 385px;
+	height: 45px;
+	line-height: 40px;
+	padding: 0px 0px 0px 50px;
+	background-image: url(../images/CA_1.png);
+	background-repeat: no-repeat;
+}
+
+#anthem_assessment_two
+{
+	position: absolute;
+	top: 160px;
+	left: 385px;
+	height: 45px;
+	line-height: 40px;
+	padding: 5px 0px 0px 50px;
+	background-image: url(../images/CA_2.png);
+	background-repeat: no-repeat;
+}
+
+#anthem_assessment_three
+{
+	position: absolute;
+	top: 245px;
+	left: 385px;
+	height: 45px;
+	line-height: 40px;
+	padding: 0px 0px 0px 50px;
+	background-image: url(../images/CA_3.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+#anthem_assessment_four
+{
+	position: absolute;
+	top: 335px;
+	left: 385px;
+	height: 45px;
+	line-height: 40px;
+	padding: 0px 0px 0px 50px;
+	background-image: url(../images/CA_4.png);
+	background-repeat: no-repeat;
+}
+
+#anthem_assessment_one select{width: 150px;}
+
+.anthem_assessment_step1
+{
+	color: #3075c6 !important;
+	font-family: open sans, arial, helvetica, san-serif !important;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	text-transform: uppercase;
+	margin: 0px !important;
+}
+
+.anthem_assessment_steps
+{
+	color: #3075c6 !important;
+	font-family: open sans, arial, helvetica, san-serif !important;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	text-transform: uppercase;
+	margin: 0px !important;
+	height: 45px;
+	line-height: 45px !important;
+}

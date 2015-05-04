@@ -1,0 +1,207 @@
+form{
+    padding: 0px;
+    margin: 0px;
+}
+
+#joe_form_contain{
+    position: absolute;
+    bottom: 0px;
+    right: 63px;
+    background-color: #0583b6;
+    width: 345px;
+    padding: 30px 0px 30px 0px;
+    margin: 0px;
+    z-index: 100;
+}
+
+#joe_form_row{
+    width: 100%; 
+    position: relative; 
+    text-align: left;
+    padding: 0px;
+    margin: 0px 0px 10px 30px;
+}
+
+#joe_form_row input{
+    width: 270px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px 0px 15px 15px;
+    border: 0px;
+    color: #999999;
+    font-size: 1em;
+    
+}
+
+.joe_form_title{
+    position: relative;
+    width: 199px;
+    height: 29px;
+    background: url(../images/quick_apply.gif);
+    background-repeat: no-repeat;
+    margin: 0px 0px 30px 30px;
+}
+
+#joe_form_select{
+    overflow:hidden; /* this hides the select's drop button */
+    padding:0; 
+    margin:0; 
+    /*background: white url(formelements-select.png) no-repeat bottom right;
+     this is the new drop button, in image form */
+    background: white url(../images/select.gif);
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    width:285px; 
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+    /*box-shadow: 0 1px 3px rgba(0,0,0,0.2); */
+    border: solid 0px #ccc;
+}
+
+#joe_form_select select{
+    width:285px /* this percentage effectively extends the drop down button out of view */; 
+    background-color:transparent /* this hides the select's background making any styling visible from the div */; 
+    background-image:none; 
+    -webkit-appearance: none /* this is required for Webkit browsers */; 
+    border:none; 
+    box-shadow:none; 
+    padding: 15px 0px 15px 15px; /* padding should be added to the select, not the div */
+    color: #999999;
+    font-size: 1em;
+}
+
+.submit_button{
+    color: white !important;
+    background-color: #92cd1a;
+    width: 100% !important;
+    font-size: 1.5em !important;
+    cursor: pointer;
+}
+
+#joe_form_err{
+    color: #92cd1a;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+#joe_bare_form_contain{
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.joe_bare_form_title{
+    position: relative;
+    font-size: 1.5em;
+    margin: 0px 0px 15px 0px;
+    font-weight: bold;
+}
+
+#joe_bare_form_row{
+    width: 100%; 
+    position: relative; 
+    text-align: left;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+#joe_bare_form_row input{
+    width: 100%;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px 0px 15px 0px;
+    border: 0px;
+    color: #999999;
+    font-size: 1em;
+    text-indent: 15px;
+    
+}
+
+#joe_bare_form_select{
+    overflow:hidden; /* this hides the select's drop button */
+    padding:0; 
+    margin:0; 
+    /*background: white url(formelements-select.png) no-repeat bottom right;
+     this is the new drop button, in image form */
+    background: white url(../images/select.gif);
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    width:100%;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+    /*box-shadow: 0 1px 3px rgba(0,0,0,0.2); */
+    border: solid 0px #ccc;
+}
+
+#joe_bare_form_select select{
+    width:285px /* this percentage effectively extends the drop down button out of view */; 
+    background-color:transparent /* this hides the select's background making any styling visible from the div */; 
+    background-image:none; 
+    -webkit-appearance: none /* this is required for Webkit browsers */; 
+    border:none; 
+    box-shadow:none; 
+    padding: 15px 0px 15px 15px; /* padding should be added to the select, not the div */
+    color: #999999;
+    font-size: 1em;
+}
+
+.jf_red{
+    color: #cc0000;
+}
+
+.jf_examples{
+    font-style: italic;
+    color: #999999;
+}
+
+#jf_admin_form{
+    position: relative;
+    width: 400px;
+}
+
+.fakeButton{
+    background-color: #999;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    display: inline;
+}
+
+#jf_record{
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+#jf_form_detail_contain{
+    display: none;
+    position: fixed;
+    top: 100px;
+    right: 50%;
+    width: 400px;
+    border: 2px solid #eaeaea;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    background-color: #ffffff;
+    z-index: 100;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#jf_form_detail_contain h1{
+    text-indent: 15px;
+    margin: 15px 0px 0px 0px;
+}
+
+#jf_close_detail{
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#jf_form_detail_content{
+    position: relative;
+    padding: 5px 15px 20px 15px;
+}
