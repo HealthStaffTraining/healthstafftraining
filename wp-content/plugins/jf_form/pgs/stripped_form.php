@@ -1,5 +1,6 @@
 <div id="joe_bare_form_contain">
     <div id="joe_bare_form_mobile">
+        <div id="formText">Fill out the form below to receive a free</div>
         <div class="joe_bare_form_title"><?php echo $formName; ?></div>
         <div id="joe_form_err"></div>
         <div id="joe_bare_form_row">

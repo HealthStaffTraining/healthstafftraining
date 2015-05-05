@@ -64,3 +64,20 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+function site_scripts() {
+    //wp_enqueue_style( 'healthstaff_styles', get_stylesheet_uri() );
+    wp_enqueue_style('healthstaff_css', get_template_directory_uri().'/css/healthstaff.css');
+    wp_enqueue_script( 'healthstaff_js', get_template_directory_uri() . '/js/healthstaff.js', array(), '1.0.0', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'site_scripts' );
+
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'menu-1' => __( 'Menu 1' )
+        )
+    );
+}
+add_action( 'init', 'register_my_menus' );

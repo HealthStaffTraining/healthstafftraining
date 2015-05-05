@@ -67,7 +67,7 @@ function insertFormName(e){
     var value = jQuery(e).val();
     jQuery.post( "admin.php?page=jf_form_menu", { jf_action: "insertFormName", formName: value })
         .done(function( data ) {
-            alert( "Data Loaded:". value );
+            //alert( "Data Loaded:". value );
         });
 }
 
