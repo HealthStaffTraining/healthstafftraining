@@ -190,6 +190,21 @@ function load_dashicons_front_end() {
             ob_end_flush();
             exit();
         }
+        add_shortcode('program_list', 'program_list');
+        function program_list($args = array()){
+            $jf_form = new jf_form();
+            $programs = $jf_form->programList();
+            sort($programs);
+            ob_start();
+            foreach($programs AS $key=>$value){
+                $val = str_ireplace(" ","_",$value);
+                $val = str_ireplace("&","",$val);
+                ?>
+                <div id="<?php echo addslashes($val); ?>" class="prgms"><?php echo $value; ?></div>
+                <?php
+            }
+            ob_end_flush();
+        }
 //================================================================
 // End Page Insert Items
 //================================================================

@@ -13,13 +13,34 @@
     src: url(Ubuntu-B.ttf);
 }
 
+@font-face {
+    font-family: Monsterrat-Bold;
+    src: url(Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Monsterrat-Light;
+    src: url(Montserrat-Light.otf);
+}
+
 body{
     margin: 0px;
     padding: 0px;
     background-color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     font-family: UbuntuLight, arial, helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Monsterrat-Light, arial, helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 25px 0px;
+    background-image: url("../images/h1_back.png");
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
 }
 
 #site_logo{
@@ -41,7 +62,7 @@ body{
     height: 40px;
     width: 150px;
     line-height: 40px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     cursor: pointer;
 }
 
@@ -50,7 +71,7 @@ body{
     right: 0px;
     top: 70px;
     height: 40px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1em;
     background-image: url("../images/phone.png");
     background-repeat: no-repeat;
@@ -136,9 +157,39 @@ body{
 }
 
 .small_nav{
-    font-size: .9em;
+    font-size: .8em;
     font-family: UbuntuLight, arial, helvetica, sans-serif;
     color: #81c1dc;
+}
+
+#footer_menu{
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+}
+
+.footer-menu{
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+.footer-menu a:link, .footer-menu a:visited {
+    color: #000;
+    font-family: UbuntuBold, arial, helvetica, sans-serif;
+    text-decoration: none;
+    font-size: .95em;
+}
+
+.footer-menu a:hover{
+    color: #999;
+}
+
+.footer-menu li {
+    float: left;
+    margin: 0px 10px 0px 10px;
+    padding: 25px 0px 0px 25px;
+    text-align: left;
 }
 
 #hero_section{
@@ -151,7 +202,7 @@ body{
 #hero_section #hero{
     position: absolute;
     bottom: 0px;
-    right: 360px;
+    right: 350px;
     width: 440px;
     height: 384px;
     background-image: url("../images/hero1.png");
@@ -179,7 +230,7 @@ body{
     text-decoration: underline;
     cursor: pointer;
     z-index: 2;
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .catalog, .schedule, .apply, .campus{
@@ -207,7 +258,7 @@ body{
     width: 456px;
     height: 467px;
     top: 0px;
-    right: 0px;
+    right: -30px;
     background-image: url("../images/0form.png");
     background-repeat: no-repeat;
 }
@@ -219,11 +270,232 @@ body{
 #formText{
     color: white;
     margin: 0px 0px 15px 0px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .joe_bare_form_title{
     color: white;
     font-family: UbuntuBold, arial, helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    font-size: 1.4em;
+}
+
+#home_content{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 400px;
+    height: 250px;
+    text-align: left;
+    z-index: 0;
+    font-family: Monsterrat-Light, arial, helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #949494;
+}
+
+#home_content h1{
+    font-family: Monsterrat-Bold, UbuntuBold, arial, helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin: 0px 0px 20px 0px;
+    font-weight: normal;
+    color: #000;
+}
+
+#discover_button{
+    position: absolute;
+    top: 280px;
+    left: 0px;
+    color: #000;
+    border: 2px solid #94cd17;
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.standard_button{
+    padding: 15px;
+    border: 2px solid #f0f0f0;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#program_section{
+    position: relative;
+    padding: 50px 0px 20px 0px;
+}
+
+#program_section #site_contain{
+    text-align: left;
+}
+
+#pgrm_section{
+    position: relative;
+    width: 70%;
+    text-align: left;
+    overflow: auto;
+}
+
+.prgms{
+    text-decoration: underline;
+    cursor: pointer;
+    float: left;
+    width: 220px;
+    margin: 0px;
+    padding: 0px 40px 20px 0px;
+    white-space: nowrap;
+    color: #949494;
+}
+
+#discover_more{
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    width: 225px;
+    z-index: 20;
+    font-size: 1.6em;
+}
+
+#benefits_section{
+    position: relative;
+    padding: 50px 0px 20px 0px;
+    overflow: auto;
+}
+
+#benefits_section #site_contain{
+    text-align: left;
+}
+
+#benefits_section #site_contain h1{
+    margin-bottom: 50px;
+}
+
+#ben_padding{
+    padding: 20px;
+}
+#ben_padding h2{
+    font-size: 1.2em;
+    font-family: Monsterrat-Bold, arial, helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+}
+#ben_padding p{
+    color: #949494;
+    font-family: Monsterrat-Light, arial, helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.fourth{
+    float: left;
+    width: 24%;
+}
+
+#ben_edu,#ben_staff,#ben_plans,#ben_students{
+    text-align: center;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+}
+#ben_edu{background-image: url("../images/ben_grad.jpg");}
+#ben_staff{background-image: url("../images/ben_dude.jpg");}
+#ben_plans{background-image: url("../images/ben_list.jpg");}
+#ben_students{background-image: url("../images/ben_girl.jpg");}
+
+#success_wrapper{
+    background-color: #efefef;
+    position: relative;
+    width: 100%;
+    padding: 75px 0px 100px 0px;
+}
+
+#success_wrapper h1{
+    background-position: 50% bottom !important;
+}
+
+#success_testimonal{
+    background-color: #fff;
+    padding: 50px 100px 50px 100px;
+    background-image: url("../images/0success.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#success_testimonal h2{
+    font-size: 1.2em;
+    font-family: Monsterrat-Bold, arial, helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+}
+
+#success_testimonal p{
+    color: #949494;
+    font-family: Monsterrat-Light, arial, helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+#footer_wrapper{
+    position: relative;
+    background-color: #cacaca;
+    width: 100%;
+    padding: 75px 0px 75px 0px;
+}
+
+#footer_wrapper #site_contain{
+    height: 150px;
+}
+
+#foot_logo{
+    position: relative;
+    width: 160px;
+    height: 93px;
+    background-image: url("../images/logo_footer.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#copyright{
+    padding: 20px 0px 20px 0px;
+    color: #666;
+}
+
+#social_section{
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    text-align: left;
+    font-family: Monsterrat-Light, arial, helvetica, sans-serif;
+}
+
+#social_item{
+    float: left;
+    margin: 0px 0px 0px 40px;
+    padding-left: 45px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.sub_social{color: #666666;}
+
+.social_adviser{text-align: right;}
+.social_chat{
+    background-image: url('../images/i_quote.png');
+    margin-left: 5px !important;
+}
+.social_facebook{
+    background-image: url('../images/i_facebook.png');
+}
+.social_twitter{
+    background-image: url('../images/i_twitter.png');
+}
+.social_apply{
+    background-image: url('../images/i_checkbox.png');
+}
+.social_campus{
+    background-image: url('../images/i_country.png');
 }

@@ -76,7 +76,8 @@ add_action( 'wp_enqueue_scripts', 'site_scripts' );
 function register_my_menus() {
     register_nav_menus(
         array(
-            'menu-1' => __( 'Menu 1' )
+            'menu-1' => __( 'Menu 1' ),
+            'footer-1' => __( 'Footer 1' )
         )
     );
 }
