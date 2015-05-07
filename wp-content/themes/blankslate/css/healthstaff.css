@@ -431,12 +431,13 @@ h1 {
     background-position: right top;
 }
 
-#success_testimonal h2{
+#success_testimonal h2, #top_content h2{
     font-size: 1.2em;
     font-family: Monsterrat-Bold, arial, helvetica, sans-serif;
     font-weight: normal;
     margin: 0px 0px 20px 0px;
     padding: 0px;
+    color: #000;
 }
 
 #success_testimonal p{
@@ -508,5 +509,82 @@ h1 {
 
 #interior_section{
     position: relative;
+    line-height: 1.5em;
     width: 100%;
+    font-family: Monsterrat-Light, arial, helvetica, sans-serif;
+}
+
+#top_content{
+    width: 780px;
+    position: relative;
+    color: #a3a3a3;
+    margin: 0px;
+    padding: 50px 0px 20px 0px;
+}
+
+#top_content h2{
+    color: #000;
+
+}
+
+#our_mission, #our_ceo{
+    position: relative;
+    float: left;
+    width: 385px;
+    height: 250px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    margin: 0px;
+    padding: 120px 0px 0px 0px;
+}
+
+#our_mission{
+    background-image: url('../images/ben_target.jpg');
+}
+
+#our_ceo{
+    background-image: url('../images/ben_graph.jpg');
+}
+
+#our_approval{
+    background-image: url('../images/ben_grad.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+}
+
+#our_approval{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding: 120px 0px 0px 0px;
+}
+
+#why_section{
+    position: relative;
+    width: 100%;
+    background-color: #efefef;
+    padding: 50px 0px 50px 0px;
+    overflow: auto;
+}
+
+#why_content{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    color: #a3a3a3;
+    background-image: url('../images/0why.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#why_content h3{
+    color: #0382b8;
+    font-size: 1.2em;
+    font-family: Monsterrat-Bold, arial, helvetica, sans-serif;
+    font-weight: normal;
 }
