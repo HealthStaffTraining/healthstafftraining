@@ -88,4 +88,9 @@ function landingMap($args = array())
     }
 }
 
+add_shortcode('general_sidebar','general_sidebar');
+function general_sidebar($args = array()){
+    echo "Booya!!";
+}
+
 ?>
