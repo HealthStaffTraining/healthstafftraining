@@ -77,7 +77,8 @@ function register_my_menus() {
     register_nav_menus(
         array(
             'menu-1' => __( 'Menu 1' ),
-            'footer-1' => __( 'Footer 1' )
+            'footer-1' => __( 'Footer 1' ),
+            'prog-1' => __( 'Program Page' )
         )
     );
 }
