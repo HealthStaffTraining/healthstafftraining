@@ -90,7 +90,30 @@ function landingMap($args = array())
 
 add_shortcode('general_sidebar','general_sidebar');
 function general_sidebar($args = array()){
-    echo "Booya!!";
+    ob_start();
+    ?>
+    <div id="sidebar_locations">
+        <div id="location">
+            <b>Riverside Location</b><br>
+            28671 Calle Cortez, Suite F<br>
+            Temecula, CA 92590<br>
+            <a href="https://www.google.com/maps/place/28671+Calle+Cortez,+Old+Adobe+Plaza+Shopping+Center,+Temecula,+CA+92590/@33.5070854,-117.156742,17z/data=!3m1!4b1!4m2!3m1!1s0x80db7e3330f67b85:0xe39a7bcda7352ae8">View Map</a>
+        </div>
+        <div id="location">
+            <b>San Bernadino Location</b><br>
+            601 S. Milliken Avenue, Suite A<br>
+            Ontario, CA 91761<br>
+            <a href="https://www.google.com/maps/place/601+S+Milliken+Ave,+Ontario,+CA+91761/@34.0580499,-117.5575149,17z/data=!3m1!4b1!4m2!3m1!1s0x80c335643f1a9caf:0x6c98f417e1e2eaf">View Map</a>
+        </div>
+        <div id="location">
+            <b>Orange County Location</b><br>
+            1970 Old Tustin Road, Suite C<br>
+            Santa Ana, CA 92705<br>
+            <a href="https://www.google.com/maps/place/1970+Old+Tustin+Ave,+Santa+Ana,+CA+92705/@33.762607,-117.83605,17z/data=!3m1!4b1!4m2!3m1!1s0x80dcd9814cda9a4b:0x43c0042baf80959f">View Map</a>
+        </div>
+    </div>
+    <?php
+    ob_end_flush();
 }
 
 ?>

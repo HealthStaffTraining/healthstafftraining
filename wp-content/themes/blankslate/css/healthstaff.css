@@ -588,3 +588,9 @@ h1 {
     font-family: Monsterrat-Bold, arial, helvetica, sans-serif;
     font-weight: normal;
 }
+
+#site_sidebar{
+    border: 1px solid black;
+    margin: 400px 0px 0px 0px;
+    width: 350px;
+}
