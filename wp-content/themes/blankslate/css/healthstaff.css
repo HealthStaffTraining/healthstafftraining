@@ -589,8 +589,82 @@ h1 {
     font-weight: normal;
 }
 
+#site_content_contain{
+    position: relative;
+    width: 775px;
+    float: left;
+    text-align: left;
+    padding: 25px 0px 50px 0px;
+}
+
+#hero_banner{
+    position: relative;
+    margin: 25px 0px 25px 0px;
+}
+.hero_banner{
+    width: 772px;
+    border: 0px;
+}
+
 #site_sidebar{
-    border: 1px solid black;
-    margin: 400px 0px 0px 0px;
+    margin: 400px 20px 0px 0px;
     width: 350px;
+    float: right;
+    text-align: left;
+}
+
+#nav_menu-2{
+    background-color: #f0f0f0;
+    background-image: url('../images/0sidebar.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+.xoxo{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.widget-title{
+    font-family: Monsterrat-Light, arial, helvetica, sans-serif;
+}
+
+#menu-programs li{
+    font-family: Monsterrat-Light, arial, helvetica, sans-serif;
+    margin: 0px 0px 20px 0px;
+}
+
+#menu-programs .current-menu-item{
+    display: none;
+    color: #666;
+}
+
+#menu-programs li a:link{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+#menu-programs li a:hover{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+#menu-programs li a:visited{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+#sidebar_locations{
+    padding: 0px 0px 20px 50px;
+}
+#location{
+    margin: 0px 0px 25px 0px;
+    color: #666;
+}
+#location b{
+    color: #000;
 }
