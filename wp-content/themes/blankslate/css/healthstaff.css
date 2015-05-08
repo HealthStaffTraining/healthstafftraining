@@ -668,3 +668,41 @@ h1 {
 #location b{
     color: #000;
 }
+
+.prog-menu{margin: 0px; padding: 0px;}
+
+.prog-menu li{
+    width: 372px;
+    float: left;
+    padding: 230px 0px 0px 0px;
+    margin: 0px 10px 30px 0px !important;
+    list-style: none;
+}
+
+.prog-menu .menu-item-78, .prog-menu .menu-item-82, .prog-menu .menu-item-80,.prog-menu .menu-item-79,.prog-menu .menu-item-83,.prog-menu .menu-item-81,.prog-menu .menu-item-77{
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.prog-menu .menu-item-78{
+    background-image: url('../images/b_admin.jpg');
+}
+.prog-menu .menu-item-82{
+    background-image: url('../images/b_cma.jpg');
+}
+.prog-menu .menu-item-80{
+    background-image: url('../images/b_clinical_assist.jpg');
+}
+.prog-menu .menu-item-79{
+    background-image: url('../images/b_comp.jpg');
+}
+.prog-menu .menu-item-83{
+    background-image: url('../images/b_drug.jpg');
+}
+.prog-menu .menu-item-81{
+    background-image: url('../images/b_mbc.jpg');
+}
+.prog-menu .menu-item-77{
+     background-image: url('../images/b_pharm_tech.jpg');
+ }
+
