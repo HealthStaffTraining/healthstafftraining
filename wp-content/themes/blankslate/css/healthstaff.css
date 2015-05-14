@@ -309,7 +309,7 @@ h1 {
     background-image: url();
 }
 
-#discover_button{
+#hero_section #discover_button{
     position: absolute;
     top: 250px;
     left: 0px;
@@ -705,4 +705,76 @@ h1 {
 .prog-menu .menu-item-77{
      background-image: url('../images/b_pharm_tech.jpg');
  }
+
+#clear{clear: both;}
+
+.grey_back{background-color: #efefef; padding: 50px 0px 50px 0px;}
+
+#site_thirds{
+    position: relative;
+    float: left;
+    width: 33%;
+    color: #777777;
+}
+
+#site_thirds h3{
+    font-weight: normal;
+    font-family: Monsterrat-Bold, arial, helvetica, sans-serif;
+    color: black;
+}
+
+#site_thirds #padding{
+    padding: 10px;
+}
+
+.prog_courses, .prog_schedule, .prog_financial {
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    padding: 100px 0px 0px 0px;
+}
+
+.prog_courses{
+    background-image: url('../images/ben_diploma.jpg');
+}
+.prog_schedule{
+    background-image: url('../images/ben_calandar.jpg');
+}
+.prog_financial{
+    background-image: url('../images/ben_student.jpg');
+}
+
+.prog_courses ul {
+    list-style-image: url('../images/bullet.jpg');
+    text-align: left;
+}
+.prog_courses li{
+    margin: 0px 0px 10px 0px;
+}
+
+.prog_schedule #discover_button{
+    position: relative;
+    color: #000;
+    border: 2px solid #94cd17;
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0px auto 0px auto;
+}
+
+.testimonials_section{
+    padding: 50px 0px 50px 0px;
+}
+.testimonials_section h1{
+    background-position: 50% bottom !important;
+}
+
+.testimonials_section #success_testimonal{
+    background-color: #f0f0f0 !important;
+    background-image: url('../images/0sidebar.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 20px;
+    margin: 0px 0px 0px 0px;
+}
 
