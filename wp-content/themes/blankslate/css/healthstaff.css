@@ -43,6 +43,8 @@ h1 {
     background-position: 0px bottom;
 }
 
+h1 a{text-decoration: none;}
+
 #site_logo{
     position: relative;
     top: 5px;
@@ -520,6 +522,7 @@ h1 {
     color: #a3a3a3;
     margin: 0px;
     padding: 50px 0px 20px 0px;
+    overflow: auto;
 }
 
 #top_content h2{
@@ -549,6 +552,35 @@ h1 {
 
 #our_approval h2{
     background-image: url('../images/ben_grad_sm.jpg');
+}
+
+#our_info, #our_courses, #our_aid{
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 100px 0px 50px 0px;
+}
+#our_info, #our_courses{
+    position: relative;
+    width: 49%;
+    float: left;
+}
+#our_info, #our_aid{
+    text-align: center;
+}
+#our_aid{
+    width: 90%;
+    margin: 0px auto 0px auto;
+    clear: both;
+}
+#our_courses h2{text-align: center !important;}
+#our_info{
+    background-image: url("../images/ben_house.jpg");
+}
+#our_courses{
+    background-image: url("../images/ben_diploma.jpg");
+}
+#our_aid{
+    background-image: url('../images/ben_student.jpg');
 }
 
 #why_section{

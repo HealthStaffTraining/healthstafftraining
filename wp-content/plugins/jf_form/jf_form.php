@@ -137,6 +137,20 @@ function load_dashicons_front_end() {
                 <?php
                 return ob_get_clean();
         }
+        add_shortcode('jf_contact', 'jf_contact');
+        function jf_contact($args = array()){
+            $jf_form = new jf_form(); // instantiate jf_class object
+            $programs = $jf_form->programList();
+            $formName = $jf_form->getFormName();
+            ob_start();
+            ?>
+            <form method="post" action="/form_cgi/" onsubmit="return checkForm()" id="jf_form_form">
+                <?php include('pgs/stripped_contact.php'); ?>
+                <input type="hidden" name="action" id="action" value="submit">
+            </form>
+            <?php
+            return ob_get_clean();
+        }
 	//======== End User Form Page ===============
         //
         //========== FORM HANDLER ===================

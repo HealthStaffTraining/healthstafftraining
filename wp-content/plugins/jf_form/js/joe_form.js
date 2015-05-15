@@ -92,6 +92,16 @@ function getRecordDetail(id){
         });
 }
 
+function textArea(obj){
+    var txt = jQuery(obj).val();
+    var num = txt.length - 1;
+    var lastChar = txt.charAt(num);
+    if(txt.length > 250){
+        txt = txt.replace(lastChar, "");
+        jQuery(obj).val(txt);
+    }
+}
+
 /*
 <input type="text" name="cardName" id="cardName" size="10" value="First Name" maxlength="20" onclick="clearFields(this)" onblur="repopulate(this,'First Name')">
 */
@@ -236,7 +246,6 @@ function IsNumeric(strString){ // checks for numeric strings
       }
    return blnResult;
 }
-
 
 
 /* ---------------------------------------------------------------------------- */

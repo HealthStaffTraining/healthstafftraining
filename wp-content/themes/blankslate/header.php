@@ -126,7 +126,12 @@
                 }
 
             </script>
-            <?php $phone = get_post_meta($post->ID, "phone", true); ?>
+            <?php
+            $phone = get_post_meta($post->ID, "phone", true);
+            if(strlen($phone) < 2){
+                $phone = "951.694.4784";
+            }
+            ?>
         </head>
         <body <?php body_class(); ?>>
         <div id="head_wrapper">
