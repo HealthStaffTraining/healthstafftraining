@@ -33,9 +33,8 @@
                 </div>
                 <div id="site_thirds" class="prog_schedule">
                     <div id="padding">
-                    <h3>Schedule</h3>
-                    <p>Get more information today! View program schedule now.</p>
-                    <div id="discover_button">Discover More</div>
+                    <h3>Superior Education</h3>
+                    <p>With an innovative approach, Healthstaff has grown from an upstart to become an educational leader providing classes on and offline leading the way in education.</p>
                     </div>
                 </div>
                 <div id="site_thirds" class="prog_financial">

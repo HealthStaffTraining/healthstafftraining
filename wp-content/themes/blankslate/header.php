@@ -21,12 +21,8 @@
                         window.location.assign("/catalog/");
                     });
 
-                    jQuery(".schedule").click(function(){
-                        window.location.assign("/");
-                    });
-
                     jQuery(".apply").click(function(){
-                        window.location.assign("/contact-us/#contact");
+                        window.location.assign("/contact-us/");
                     });
 
                     jQuery(".campus").click(function(){
@@ -61,7 +57,7 @@
                         window.location.assign("/");
                     });
                     jQuery(".social_adviser, .social_chat").click(function(){
-                        window.location.assign("/contact-us/#contact");
+                        window.location.assign("/contact-us/");
                     });
                     jQuery(".social_facebook").click(function(){
                         window.location.assign("/");
@@ -70,7 +66,7 @@
                         window.location.assign("http://twitter.com/#!/HealthStaff_TI");
                     });
                     jQuery(".social_apply").click(function(){
-                        window.location.assign("/contact-us/#contact");
+                        window.location.assign("/contact-us/");
                     });
                     jQuery(".social_campus").click(function(){
                         window.location.assign("/contact-us/");
@@ -158,8 +154,6 @@
                 <div id="site_contain">
                     <div id="subLinkSection">
                         <div id="subLink" class="catalog">Download Catalog</div>
-                        <div id="subLink" class="schedule">Course Schedule</div>
-                        <div id="subLink" class="apply">Apply Online</div>
                         <div id="subLink" class="campus">Campus Finder</div>
                     </div>
                 </div>

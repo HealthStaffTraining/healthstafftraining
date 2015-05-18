@@ -23,7 +23,6 @@
     <div id="site_bleed">
         <div id="site_contain">
             <h1>Programs & Courses</h1>
-            <div id="discover_more" class="standard_button">Discover More</div>
             <div id="pgrm_section">
                 <?php echo do_shortcode( '[program_list]' ); ?>
             </div>

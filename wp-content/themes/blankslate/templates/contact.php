@@ -23,11 +23,5 @@ $hero = get_post_meta($post->ID, "Hero", true);
             <div id="site_sidebar"><?php get_sidebar('contact'); ?></div>
         </div>
     </div>
-    <div id="site_bleed" class="grey_back">
-        <div id="site_contain" style="text-align: left;">
-            <a name="contact"></a>
-            <?php echo do_shortcode( '[jf_contact]' ); ?>
-        </div>
-    </div>
 </div>
 <?php get_footer(); ?>
