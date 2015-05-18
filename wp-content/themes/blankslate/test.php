@@ -1,3 +1,56 @@
+<h2><a href="/wp-content/uploads/pdf/10.01.14%20rv.%20catalog.bbve.pdf">Download Standard 2014 Catalog</a></h2>
+<p>HealthStaff Training Institute (HSTi) is dedicated to provide quality, entry-level vocational training in a relatively short period of time. The industry-focused courses and curriculum are geared to close the employment skills gap between our graduates and the allied health or business job they are trained for. As health care becomes of critical concern, the properly trained health-care professionals becomes a priority. HealthStaff Training Institute, Inc. endeavors to train and place competent persons. In addition, HealthStaff Training Insitute assumes responsibility for each of our students by using practical teaching techniques, equipment commonly used in the field, industry-focused curriculum, and experienced, qualified faculty to develop the skills and job responsibility of our students.</p>
+<p align="center"><img src="/wp-content/uploads/pdf/bg_catalog.png" border="0"></p>
+<h2><a href="/wp-content/uploads/pdf/10.01.14%20rv.%20catalog.bbve.pdf">Download Catalog</a></h2>
+<h2><a href="/wp-content/uploads/pdf/Rx-Performace.Facts%202012.2013.pdf">Download Pharmacy Technician Performance Fact Sheet</a></h2>
+<h2><a href="/wp-content/uploads/pdf/ADC-Performace.Facts%202012.2013.2014.pdf">Download Drug and Alcohol Counseling Performance Fact Sheet</a></h2>
+<h2><a href="/wp-content/uploads/pdf/Administrative%20MA%20Performace.Facts%202012.2013.2014.pdf">Download Administrative Medical Assistant Performance Fact Sheet</a></h2>
+<h2><a href="/wp-content/uploads/pdf/CAMA%20Performace.Facts%202012.2013.2014.pdf">Download Clinical & Administrative Medical Assistant Performance Fact Sheet</a></h2>
+<h2><a href="/wp-content/uploads/pdf/Clinical%20MA%20Performace.Facts%202012.2013.2014.pdf">Download Clinical Medical Assistant Performance Fact Sheet</a></h2>
+<h2><a href="/wp-content/uploads/pdf/bppe.pdf">BPPE Annual Report for 2013 - Institution</a></h2>
+
+
+
+<div id="site_contain" style="text-align: left;">
+    <div id="top_content" style="margin-top: 0px; padding-top: 0px;">
+        <div id="contact-row">
+            <div id="contact-left">
+                [miniMap campus="Riverside"]
+            </div>
+            <div id="contact-right">
+                Riverside Location<br>
+                28671 Calle Cortez, Suite F<br>
+                Temecula, CA 92590<br>
+                (951) 694-4784
+            </div>
+        </div>
+        <div id="contact-row">
+            <div id="contact-left">
+                [miniMap campus="San Bernadino"]
+            </div>
+            <div id="contact-right">
+                San Bernardino Location<br>
+                601 S. Milliken Avenue, Suite A<br>
+                Ontario, CA 91761<br>
+                (909) 321-5778
+            </div>
+        </div>
+        <div id="contact-row">
+            <div id="contact-left">
+                [miniMap campus="Orange County"]
+            </div>
+            <div id="contact-right">
+                Orange County Location<br>
+                1970 Old Tustin Road, Suite C<br>
+                Santa Ana, CA 92705<br>
+                (714) 543-9828
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <div id="site_contain" style="text-align: left;">
     <div id="top_content">
         <div id="our_info">

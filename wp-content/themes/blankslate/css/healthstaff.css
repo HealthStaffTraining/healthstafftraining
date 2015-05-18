@@ -32,6 +32,9 @@ body{
     font-family: UbuntuLight, arial, helvetica, sans-serif;
 }
 
+a:link, a:visited{color: #0382b8;}
+a:hover{color: #015a7f;}
+
 h1 {
     font-family: Monsterrat-Light, arial, helvetica, sans-serif;
     font-size: 2.5em;
@@ -628,10 +631,12 @@ h1 a{text-decoration: none;}
 }
 
 #site_sidebar{
+    position: relative;
     margin: 400px 20px 0px 0px;
     width: 350px;
     float: right;
     text-align: left;
+    z-index: 10;
 }
 
 #nav_menu-2{
@@ -799,3 +804,49 @@ h1 a{text-decoration: none;}
     margin: 0px 0px 0px 0px;
 }
 
+#contact-row{
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+
+#contact-left{
+    float: left;
+    width: 470px;
+    margin-right: 20px;
+}
+#contact-right{
+    float: left;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.contact-side{
+
+}
+
+.contact-side ul {
+    list-style-image: url('../images/bullet.png');
+    text-align: left;
+}
+
+.contact-side li{
+    margin: 0px 0px 10px 0px !important;
+}
+
+.contact-side li a{
+    color: #777777 !important;
+    font-weight: normal !important;
+    font-size: 1em !important;
+    line-height: 1em !important;
+}
+
+.student{
+    background-color: #eaeaea;
+    background-image: url('../images/0student.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}

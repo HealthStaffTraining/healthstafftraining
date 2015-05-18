@@ -112,6 +112,47 @@ function contactMap($args = array())
     }
 }
 
+add_shortcode('miniMap', 'miniMap');
+function miniMap($args = array())
+{
+    // EXAMPLE: [printImage img="try.jpg"]
+    $campus = $args['campus'];
+    $key = 'AIzaSyB4Wlw9Bq2CjqMkPuwWZ0tcGB_JwoW30ZU';
+    switch($campus){
+        case 'Riverside':
+            $address = "28671 Calle Cortez";
+            $city_state_zip = "Temecula, CA 92590";
+            break;
+        case 'San Bernadino':
+            $address = "601 S. Milliken Avenue";
+            $city_state_zip = "Ontario, CA 91761";
+            break;
+        case 'Orange County':
+            $address = "1970 Old Tustin Road";
+            $city_state_zip = "Santa Ana, CA 92705";
+            break;
+        default:
+            $address = "28671 Calle Cortez";
+            $city_state_zip = "Temecula, CA 92590";
+            break;
+    }
+
+    if (strlen($address) >= 1 && strlen($city_state_zip) >= 1) {
+        ob_start();
+        ?>
+        <iframe
+            width="100%"
+            accesskey="" height="300"
+            frameborder="0" style="border:0px solid #0066a9; border-radius: 0px;"
+            src="https://www.google.com/maps/embed/v1/place?key=<?php echo $key; ?>&q=<?php echo urlencode($address . "," . $city_state_zip);?>">
+        </iframe>
+        <?php
+        return ob_get_clean();
+    } else { // address is not set
+        //echo do_shortcode( '[geoCampusMap key="'.$key.'" phone="'.$phone.'"]' );
+    }
+}
+
 add_shortcode('general_sidebar','general_sidebar');
 function general_sidebar($args = array()){
     ob_start();

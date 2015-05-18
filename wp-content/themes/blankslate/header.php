@@ -18,7 +18,7 @@
                     });
 
                     jQuery(".catalog").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("/catalog/");
                     });
 
                     jQuery(".schedule").click(function(){
@@ -26,11 +26,11 @@
                     });
 
                     jQuery(".apply").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("/contact-us/#contact");
                     });
 
                     jQuery(".campus").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("/contact-us/");
                     });
 
                     jQuery("#discover_button, #discover_more").click(function(){
@@ -61,19 +61,19 @@
                         window.location.assign("/");
                     });
                     jQuery(".social_adviser, .social_chat").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("/contact-us/#contact");
                     });
                     jQuery(".social_facebook").click(function(){
                         window.location.assign("/");
                     });
                     jQuery(".social_twitter").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("http://twitter.com/#!/HealthStaff_TI");
                     });
                     jQuery(".social_apply").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("/contact-us/#contact");
                     });
                     jQuery(".social_campus").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("/contact-us/");
                     });
 
                     // MOUSE OVER FUNCTIONS
