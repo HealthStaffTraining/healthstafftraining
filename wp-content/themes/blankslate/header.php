@@ -60,7 +60,7 @@
                         window.location.assign("/contact-us/");
                     });
                     jQuery(".social_facebook").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("https://www.facebook.com/healthstafftraining");
                     });
                     jQuery(".social_twitter").click(function(){
                         window.location.assign("http://twitter.com/#!/HealthStaff_TI");
