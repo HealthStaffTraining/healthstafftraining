@@ -14,7 +14,7 @@
                         window.location.assign("/");
                     });
                     jQuery("#student_login").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("http://moodle1.healthstafftraining.com/");
                     });
 
                     jQuery(".catalog").click(function(){
