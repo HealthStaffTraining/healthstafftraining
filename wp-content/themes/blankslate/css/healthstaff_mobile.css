@@ -27,8 +27,8 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #fff;
-    font-size: 14px;
-    text-align: left;
+    font-size: 13px;
+    text-align: center;
     font-family: UbuntuLight, arial, helvetica, sans-serif;
 }
 
@@ -37,7 +37,8 @@ a:hover{color: #015a7f;}
 
 h1 {
     font-family: Monsterrat-Light, arial, helvetica, sans-serif;
-    font-size: 2.5em;
+    font-size: 2em;
+    line-height: 1.5em;
     font-weight: normal;
     margin: 0px 0px 25px 0px;
     padding: 0px 0px 25px 0px;
@@ -50,56 +51,72 @@ h1 a{text-decoration: none;}
 
 #site_logo{
     position: relative;
-    top: 5px;
-    width: 241px;
-    height: 141px;
-    background-image: url("../images/logo.png");
+    top: 25px;
+    left: 10px;
+    width: 195px;
+    height: 114px;
+    background-image: url("../images/logo_m.png");
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 #student_login{
     position: absolute;
-    top: 70px;
-    right: 300px;
+    top: 20px;
+    right: 10px;
     border: 2px solid #f0f0f0;
     border-radius: 25px;
-    height: 40px;
+    height: 30px;
     width: 150px;
-    line-height: 40px;
-    font-size: 1.1em;
+    line-height: 30px;
+    font-size: 1em;
     cursor: pointer;
+    background-color: white;
+}
+
+#request-info{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #f0f0f0;
+    border-radius: 25px;
+    height: 35px;
+    width: 150px;
+    line-height: 35px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: white;
+    z-index: 10;
 }
 
 #site_phone{
     position: absolute;
-    right: 0px;
+    right: 20px;
     top: 70px;
-    height: 40px;
-    font-size: 1.4em;
+    height: 35px;
+    font-size: 1.2em;
     line-height: 1em;
     background-image: url("../images/phone.png");
     background-repeat: no-repeat;
     background-position: 10px 50%;
     text-align: left;
-    padding: 0px 0px 0px 55px;
+    padding: 0px 0px 0px 50px;
 }
 
 #head_wrapper{
     position: relative;
     width: 100%;
-    height: 175px;
+    height: 160px;
 }
 
 #site_bleed{
     position: relative;
     width: 100%;
-    text-align: center;
 }
 
 #site_contain{
     position: relative;
-    width: 1178px;
+    width: 97%;
     margin: 0px auto 0px auto;
 }
 
@@ -107,23 +124,27 @@ h1 a{text-decoration: none;}
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 408px;
-    height: 177px;
+    width: 70%;
+    height: 170px;
     z-index: -1;
-    background-image: url("../images/0head_l.jpg");
+    background-image: url("../images/0head_l_m.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    z-index: -1;
 }
 
 #headBack_r{
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 445px;
-    height: 200px;
+    width: 50%;
+    height: 170px;
     z-index: -2;
-    background-image: url("../images/0head_r.jpg");
+    background-image: url("../images/0head_r_m.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    z-index: -2;
 }
-
-#headBack_r{}
 
 #nav_wrapper{
     position: relative;
@@ -133,7 +154,28 @@ h1 a{text-decoration: none;}
     background-image: url("../images/0nav.jpg");
 }
 
-#navMenu{position: relative;height: 80px;}
+#mobileNav{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    background-image: url('../images/mobile_nav.png');
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 50;
+}
+
+#navMenu{
+    display: none;
+    position: absolute;
+    background-color: #0381b7;
+    top: 80px;
+    left: 0px;
+    z-index: 40;
+    padding: 0px 0px 50px 0px;
+    width: 100%;
+}
 
 .nav-menu{
     list-style-type: none;
@@ -153,7 +195,6 @@ h1 a{text-decoration: none;}
 }
 
 .nav-menu li {
-    float: left;
     margin: 0px 20px 0px 20px;
     padding: 25px 0px 0px 25px;
     text-align: left;
@@ -168,12 +209,10 @@ h1 a{text-decoration: none;}
     color: #81c1dc;
 }
 
-#footer{text-align: center;}
-
 #footer_menu{
     position: absolute;
     bottom: 15px;
-    right: 0px;
+    left: 0px;
 }
 
 .footer-menu{
@@ -196,7 +235,7 @@ h1 a{text-decoration: none;}
 .footer-menu li {
     float: left;
     margin: 0px 10px 0px 10px;
-    padding: 25px 0px 0px 25px;
+    padding: 25px 0px 0px 10px;
     text-align: left;
 }
 
@@ -209,10 +248,10 @@ h1 a{text-decoration: none;}
 #hero_section #hero{
     position: absolute;
     bottom: 0px;
-    right: 350px;
+    left: 0px;
     width: 440px;
     height: 384px;
-    background-image: url("../images/hero1.png");
+    background-image: url("../images/hero_m.png");
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -266,14 +305,17 @@ h1 a{text-decoration: none;}
 }
 
 #form_section{
+    display: none;
     position: absolute;
     z-index: 200;
-    width: 456px;
+    width: 100%;
     height: 467px;
     top: 80px;
-    right: -30px;
+    /*
     background-image: url("../images/0form.png");
     background-repeat: no-repeat;
+    */
+    background-color: #0381b7;
 }
 
 #form_container{
@@ -295,23 +337,24 @@ h1 a{text-decoration: none;}
 
 #home_content{
     position: absolute;
-    top: 50px;
-    left: 0px;
-    width: 400px;
+    top: 20px;
+    right: 0px;
+    width: 140px;
     height: 250px;
     text-align: left;
     z-index: 0;
     font-family: Monsterrat-Light, arial, helvetica, sans-serif;
-    font-size: 1.1em;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.2em;
     color: #949494;
+    z-index: 20;
 }
 
 #home_content h1{
     font-family: Monsterrat-Bold, UbuntuBold, arial, helvetica, sans-serif;
     font-size: 1.2em;
     line-height: 1.2em;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 10px 0px;
     font-weight: normal;
     color: #000;
     background-image: url();
@@ -319,8 +362,8 @@ h1 a{text-decoration: none;}
 
 #hero_section #discover_button{
     position: absolute;
-    top: 250px;
-    left: 0px;
+    top: 270px;
+    right: 10px;
     color: #000;
     border: 2px solid #94cd17;
     padding: 15px;
@@ -406,7 +449,8 @@ h1 a{text-decoration: none;}
 
 .fourth{
     float: left;
-    width: 24%;
+    width: 49%;
+    height: 300px;
 }
 
 #ben_edu,#ben_staff,#ben_plans,#ben_students{
@@ -433,7 +477,7 @@ h1 a{text-decoration: none;}
 
 #success_testimonal{
     background-color: #fff;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 20px 50px 20px;
     background-image: url("../images/0success.jpg");
     background-repeat: no-repeat;
     background-position: right top;
@@ -462,10 +506,11 @@ h1 a{text-decoration: none;}
 }
 
 #footer_wrapper #site_contain{
-    height: 150px;
+    height: 250px;
 }
 
 #foot_logo{
+    display: none;
     position: relative;
     width: 160px;
     height: 93px;
@@ -481,15 +526,15 @@ h1 a{text-decoration: none;}
 
 #social_section{
     position: absolute;
-    top: 25px;
-    right: 0px;
+    top: 0px;
+    left: 0px;
     text-align: left;
     font-family: Monsterrat-Light, arial, helvetica, sans-serif;
 }
 
 #social_item{
     float: left;
-    margin: 0px 0px 0px 40px;
+    margin: 0px 0px 30px 40px;
     padding-left: 45px;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -523,7 +568,7 @@ h1 a{text-decoration: none;}
 }
 
 #top_content{
-    width: 780px;
+    width: 100%;
     position: relative;
     color: #a3a3a3;
     margin: 0px;
@@ -618,15 +663,13 @@ h1 a{text-decoration: none;}
 
 #site_content_contain{
     position: relative;
-    width: 775px;
-    float: left;
+    width: 100%;
     text-align: left;
     padding: 25px 0px 50px 0px;
 }
 
-.contact_contain{overflow: auto;}
-
 #hero_banner{
+    display: none;
     position: relative;
     margin: 25px 0px 25px 0px;
 }
@@ -635,15 +678,22 @@ h1 a{text-decoration: none;}
     border: 0px;
 }
 
-#mobile_hero_banner{display: none;}
+#mobile_hero_banner{
+    position: relative;
+}
+.mobile_hero_banner{
+    width: 100%;
+    border: 0px;
+}
 
 #site_sidebar{
     position: relative;
-    margin: 400px 20px 0px 0px;
-    width: 350px;
-    float: right;
+    margin: 20px 0px 0px 0px;
+    width: 100%;
     text-align: left;
     z-index: 10;
+    clear: both;
+
 }
 
 #nav_menu-2{
@@ -705,8 +755,7 @@ h1 a{text-decoration: none;}
 .prog-menu{margin: 0px; padding: 0px;}
 
 .prog-menu li{
-    width: 372px;
-    float: left;
+    width: 100%;
     padding: 230px 0px 0px 0px;
     margin: 0px 10px 30px 0px !important;
     list-style: none;
@@ -745,8 +794,7 @@ h1 a{text-decoration: none;}
 
 #site_thirds{
     position: relative;
-    float: left;
-    width: 33%;
+    width: 100%;
     color: #777777;
 }
 
@@ -836,21 +884,22 @@ h1 a{text-decoration: none;}
 }
 
 #contact-left{
-    float: left;
-    width: 470px;
-    margin-right: 20px;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
 }
 #contact-right{
-    float: left;
     color: #000;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
-    line-height: 1.5em;
+    line-height: 1.2em;
+    margin: 0px 0px 20px 0px;
 }
 
 .contact-side{
 
 }
+
+.contact_contain{}
 
 .contact-side ul {
     list-style-image: url('../images/bullet.png');
@@ -870,11 +919,8 @@ h1 a{text-decoration: none;}
 
 .student{
     background-color: #eaeaea;
-    background-image: url('../images/0student.jpg');
+    background-image: url();
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 
-#request-info{display: none;}
-
-#mobileNav{display: none;}

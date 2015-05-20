@@ -1,8 +1,18 @@
 <!DOCTYPE html>
-        <html <?php language_attributes(); ?>>
-        <head>
+<html <?php language_attributes(); ?>>
+<head>
             <meta charset="<?php bloginfo('charset'); ?>" />
-            <meta name="viewport" content="width=device-width" />
+            <?php
+            if(USER_DEVICE == 'PHONE'){
+            ?>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+            <?php
+            }else{
+                ?>
+                <meta name="viewport" content="width=device-width, initial-scale=.5, maximum-scale=1">
+            <?php
+            }
+            ?>
             <title><?php wp_title(' | ', true, 'right'); ?></title>
             <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
             <?php wp_head(); ?>
@@ -70,6 +80,30 @@
                     });
                     jQuery(".social_campus").click(function(){
                         window.location.assign("/contact-us/");
+                    });
+                    var mobile = 0;
+                    var form = 0;
+                    jQuery("#mobileNav").click(function(){
+                        if(mobile == 0){
+                            jQuery('#navMenu').show('slow');
+                            jQuery("#form_section").hide('slow');
+                            mobile = 1;
+                            form = 0;
+                        }else{
+                            jQuery('#navMenu').hide('slow');
+                            mobile = 0;
+                        }
+                    });
+                    jQuery("#request-info").click(function(){
+                        if(form == 0){
+                            jQuery("#form_section").show('slow');
+                            jQuery('#navMenu').hide('slow');
+                            form = 1;
+                            mobile = 0;
+                        }else{
+                            jQuery("#form_section").hide('slow');
+                            form = 0;
+                        }
                     });
 
                     // MOUSE OVER FUNCTIONS
@@ -144,8 +178,10 @@
         <div id="nav_wrapper">
             <div id="site_bleed">
                 <div id="site_contain">
+                    <div id="mobileNav"></div>
                     <div id="navMenu"><?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_class' => 'nav-menu' ) ); ?></div>
                     <div id="form_section"><div id="form_container"><?php echo do_shortcode( '[jf_form]' ); ?></div></div>
+                    <div id="request-info">Request Information</div>
                 </div>
             </div>
         </div>

@@ -76,7 +76,7 @@ return $count;
 
 function site_scripts() {
     //wp_enqueue_style( 'healthstaff_styles', get_stylesheet_uri() );
-    wp_enqueue_style('healthstaff_css', get_template_directory_uri().'/css/healthstaff.css');
+    //wp_enqueue_style('healthstaff_css', get_template_directory_uri().'/css/healthstaff.css');
     wp_enqueue_script( 'healthstaff_js', get_template_directory_uri() . '/js/healthstaff.js', array(), '1.0.0', false );
 }
 
