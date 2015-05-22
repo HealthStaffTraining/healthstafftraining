@@ -24,7 +24,8 @@
                         window.location.assign("/");
                     });
                     jQuery("#student_login").click(function(){
-                        window.location.assign("http://moodle1.healthstafftraining.com/");
+                        //window.location.assign("http://moodle1.healthstafftraining.com/");
+                        window.open("http://moodle1.healthstafftraining.com/");
                     });
 
                     jQuery(".catalog").click(function(){
@@ -40,7 +41,7 @@
                     });
 
                     jQuery("#discover_button, #discover_more").click(function(){
-                        window.location.assign("/");
+                        window.location.assign("/programs-courses/");
                     });
 
                     jQuery("#Admin__Clinical_Medical_Assistant").click(function(){
@@ -70,10 +71,12 @@
                         window.location.assign("/contact-us/");
                     });
                     jQuery(".social_facebook").click(function(){
-                        window.location.assign("https://www.facebook.com/healthstafftraining");
+                        //window.location.assign("https://www.facebook.com/healthstafftraining");
+                        window.open("https://www.facebook.com/healthstafftraining");
                     });
                     jQuery(".social_twitter").click(function(){
-                        window.location.assign("http://twitter.com/#!/HealthStaff_TI");
+                        //window.location.assign("http://twitter.com/#!/HealthStaff_TI");
+                        window.open("http://twitter.com/#!/HealthStaff_TI");
                     });
                     jQuery(".social_apply").click(function(){
                         window.location.assign("/contact-us/");
@@ -104,6 +107,28 @@
                             jQuery("#form_section").hide('slow');
                             form = 0;
                         }
+                    });
+                    // PROGRAM CLICKS
+                    jQuery("#menu-item-78, #Admin__Clinical_Medical_Assistant").click(function(){
+                        window.location.assign("/administrative-medical-assistant/");
+                    });
+                    jQuery("#menu-item-82, #Administrative_Medical_Assistant").click(function(){
+                        window.location.assign("/clinical-administrative-medical-assistant/");
+                    });
+                    jQuery("#menu-item-80, #Clinical_Medical_Assistant").click(function(){
+                        window.location.assign("/clinical-medical-assistant/");
+                    });
+                    jQuery("#menu-item-79, #Computerized_Office__Accounting").click(function(){
+                        window.location.assign("/computerized-office-accounting/");
+                    });
+                    jQuery("#menu-item-83, #Drug_and_Alcohol_Counseling").click(function(){
+                        window.location.assign("/drug-alcohol-counseling/");
+                    });
+                    jQuery("#menu-item-81, #Drug_and_Alcohol_Counseling_Online").click(function(){
+                        window.location.assign("/medical-billing-coding/");
+                    });
+                    jQuery("#menu-item-77, #Pharmacy_Technician, #Pharmacy_Technician_Online").click(function(){
+                        window.location.assign("/pharmacy-technician/");
                     });
 
                     // MOUSE OVER FUNCTIONS

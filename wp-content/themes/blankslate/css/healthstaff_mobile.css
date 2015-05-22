@@ -555,10 +555,11 @@ h1 a{text-decoration: none;}
 
 .sub_social{color: #666666;}
 
-.social_adviser{text-align: right;}
+.social_adviser{text-align: right; display: none;}
 .social_chat{
     background-image: url('../images/i_quote.png');
     margin-left: 5px !important;
+    display: none;
 }
 .social_facebook{
     background-image: url('../images/i_facebook.png');
