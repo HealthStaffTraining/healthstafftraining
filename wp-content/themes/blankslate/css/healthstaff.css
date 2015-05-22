@@ -349,7 +349,7 @@ h1 a{text-decoration: none;}
 
 #pgrm_section{
     position: relative;
-    width: 70%;
+    width: 100%;
     text-align: left;
     overflow: auto;
 }
@@ -358,7 +358,7 @@ h1 a{text-decoration: none;}
     text-decoration: underline;
     cursor: pointer;
     float: left;
-    width: 220px;
+    width: 250px;
     margin: 0px;
     padding: 0px 40px 20px 0px;
     white-space: nowrap;

@@ -32,7 +32,7 @@ class jf_form{
 			$list = array(
 				"1"=>"Drug and Alcohol Counseling",
 				"2"=>"Drug and Alcohol Counseling Online",
-				"3"=>"Admin & Clinical Medical Assistant",
+				"3"=>"Clinical & Administrative Medical Assistant",
 				"31"=>"Administrative Medical Assistant",
 				"32"=>"Clinical Medical Assistant",
 				"5"=>"Computerized Office & Accounting",

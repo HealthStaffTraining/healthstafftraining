@@ -109,10 +109,10 @@
                         }
                     });
                     // PROGRAM CLICKS
-                    jQuery("#menu-item-78, #Admin__Clinical_Medical_Assistant").click(function(){
+                    jQuery("#menu-item-78, #Administrative_Medical_Assistant").click(function(){
                         window.location.assign("/administrative-medical-assistant/");
                     });
-                    jQuery("#menu-item-82, #Administrative_Medical_Assistant").click(function(){
+                    jQuery("#menu-item-82, #Clinical__Administrative_Medical_Assistant").click(function(){
                         window.location.assign("/clinical-administrative-medical-assistant/");
                     });
                     jQuery("#menu-item-80, #Clinical_Medical_Assistant").click(function(){
