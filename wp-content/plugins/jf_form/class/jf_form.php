@@ -37,7 +37,7 @@ class jf_form{
 				"32"=>"Clinical Medical Assistant",
 				"5"=>"Computerized Office & Accounting",
 				"7"=>"Pharmacy Technician",
-				"8"=>"Pharmacy Technician Online",
+				//"8"=>"Pharmacy Technician Online",
 			);
 			
 			return $list;
