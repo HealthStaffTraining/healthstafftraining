@@ -43,7 +43,7 @@
                     jQuery("#discover_button, #discover_more").click(function(){
                         window.location.assign("/programs-courses/");
                     });
-
+                    /*
                     jQuery("#Admin__Clinical_Medical_Assistant").click(function(){
                         window.location.assign("/");
                     });
@@ -55,7 +55,8 @@
                     });
                     jQuery("#Computerized_Office__Accounting").click(function(){
                         window.location.assign("/");
-                    });jQuery("#Drug_and_Alcohol_Counseling").click(function(){
+                    });
+                    jQuery("#Drug_and_Alcohol_Counseling").click(function(){
                         window.location.assign("/");
                     });
                     jQuery("#Drug_and_Alcohol_Counseling_Online").click(function(){
@@ -67,6 +68,7 @@
                     jQuery("#Pharmacy_Technician_Online").click(function(){
                         window.location.assign("/");
                     });
+                    */
                     jQuery(".social_adviser, .social_chat").click(function(){
                         window.location.assign("/contact-us/");
                     });
@@ -125,7 +127,7 @@
                         window.location.assign("/drug-alcohol-counseling/");
                     });
                     jQuery("#menu-item-81, #Drug_and_Alcohol_Counseling_Online").click(function(){
-                        window.location.assign("/medical-billing-coding/");
+                        window.location.assign("/drug-alcohol-counseling/");
                     });
                     jQuery("#menu-item-77, #Pharmacy_Technician, #Pharmacy_Technician_Online").click(function(){
                         window.location.assign("/pharmacy-technician/");
