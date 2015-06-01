@@ -871,9 +871,9 @@ h1 a{text-decoration: none;}
 
 .student{
     background-color: #eaeaea;
-    background-image: url('../images/0student.jpg');
+    /*background-image: url('../images/0student.jpg');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom;*/
 }
 
 #request-info{display: none;}
@@ -881,3 +881,8 @@ h1 a{text-decoration: none;}
 #mobileNav{display: none;}
 
 #menu-item-77, #menu-item-78, #menu-item-79, #menu-item-80, #menu-item-81, #menu-item-82, #menu-item-83{cursor: pointer;}
+
+#moodle1, #moodle2, #moodle3, #moodle4{
+    width: 300px;
+    margin: 0px 0px 15px 50px;
+}

@@ -25,7 +25,7 @@
                     });
                     jQuery("#student_login").click(function(){
                         //window.location.assign("http://moodle1.healthstafftraining.com/");
-                        window.open("http://moodle1.healthstafftraining.com/");
+                        window.location.assign("/student-login/");
                     });
 
                     jQuery(".catalog").click(function(){
@@ -126,11 +126,26 @@
                     jQuery("#menu-item-83, #Drug_and_Alcohol_Counseling").click(function(){
                         window.location.assign("/drug-alcohol-counseling/");
                     });
-                    jQuery("#menu-item-81, #Drug_and_Alcohol_Counseling_Online").click(function(){
+                    jQuery("#Drug_and_Alcohol_Counseling_Online").click(function(){
                         window.location.assign("/drug-alcohol-counseling/");
+                    });
+                    jQuery("#menu-item-81, #Medical_Billing__Coding").click(function(){
+                        window.location.assign("/medical-billing-coding/");
                     });
                     jQuery("#menu-item-77, #Pharmacy_Technician, #Pharmacy_Technician_Online").click(function(){
                         window.location.assign("/pharmacy-technician/");
+                    });
+                    jQuery("#moodle1").click(function(){
+                        window.open("http://moodle1.healthstafftraining.com/");
+                    });
+                    jQuery("#moodle2").click(function(){
+                        window.open("http://moodle6.healthstafftraining.com/");
+                    });
+                    jQuery("#moodle3").click(function(){
+                        window.open("http://moodle2.healthstafftraining.com/");
+                    });
+                    jQuery("#moodle4").click(function(){
+                        window.open("http://www.labyrinthelab.com");
                     });
 
                     // MOUSE OVER FUNCTIONS
@@ -142,7 +157,8 @@
                     });
 
                     jQuery(".standard_button").mouseover(function(){
-                        jQuery(".standard_button").css({ 'background-color': '#eaeaea', 'color': '#000' });
+                        //alert(this.id);
+                        jQuery(this).css({ 'background-color': '#eaeaea', 'color': '#000' });
                     });
                     jQuery(".standard_button").mouseout(function() {
                         jQuery(".standard_button").css({ 'background-color': '', 'color': '#000' });

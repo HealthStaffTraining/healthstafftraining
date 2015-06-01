@@ -37,6 +37,7 @@ class jf_form{
 				"32"=>"Clinical Medical Assistant",
 				"5"=>"Computerized Office & Accounting",
 				"7"=>"Pharmacy Technician",
+                "9"=>"Medical Billing & Coding",
 				//"8"=>"Pharmacy Technician Online",
 			);
 			

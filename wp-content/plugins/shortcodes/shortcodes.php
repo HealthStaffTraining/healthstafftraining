@@ -152,18 +152,22 @@ function miniMap($args = array())
         case 'Riverside':
             $address = "28671 Calle Cortez";
             $city_state_zip = "Temecula, CA 92590";
+            $key = '!1m18!1m12!1m3!1d3326.7805968735233!2d-117.15674200000001!3d33.507085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db7e3330ed526d%3A0xbf1151156b7fa02f!2sHealthStaff+Training+Institute!5e0!3m2!1sen!2sus!4v1433191284220';
             break;
-        case 'San Bernadino':
+        case 'San Bernardino':
             $address = "601 S. Milliken Avenue";
             $city_state_zip = "Ontario, CA 91761";
+            $key = '!1m14!1m8!1m3!1d1652.7168657211073!2d-117.5575831!3d34.0583941!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c33564385cc5b7%3A0xff46dd52836d4978!2sHealthStaff+Training+Institute!5e0!3m2!1sen!2sus!4v1433191077107';
             break;
         case 'Orange County':
             $address = "1970 Old Tustin Road";
             $city_state_zip = "Santa Ana, CA 92705";
+            $key = '!1m14!1m8!1m3!1d3316.924879717714!2d-117.83605!3d33.762607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd9814b61da69%3A0x70514a0a4c1a130!2sHealthstaff+Training+Institute!5e0!3m2!1sen!2sus!4v1433191332094';
             break;
         default:
             $address = "28671 Calle Cortez";
             $city_state_zip = "Temecula, CA 92590";
+            $key = '!1m18!1m12!1m3!1d3326.7805968735233!2d-117.15674200000001!3d33.507085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db7e3330ed526d%3A0xbf1151156b7fa02f!2sHealthStaff+Training+Institute!5e0!3m2!1sen!2sus!4v1433191284220';
             break;
     }
 
@@ -174,7 +178,7 @@ function miniMap($args = array())
             width="100%"
             accesskey="" height="300"
             frameborder="0" style="border:0px solid #0066a9; border-radius: 0px;"
-            src="https://www.google.com/maps/embed/v1/place?key=<?php echo $key; ?>&q=<?php echo urlencode($address . "," . $city_state_zip);?>">
+            src="https://www.google.com/maps/embed?pb=<?php echo $key; ?>">
         </iframe>
         <?php
         return ob_get_clean();
@@ -192,19 +196,19 @@ function general_sidebar($args = array()){
             <b>Riverside Location</b><br>
             28671 Calle Cortez, Suite F<br>
             Temecula, CA 92590<br>
-            <a href="https://www.google.com/maps/place/28671+Calle+Cortez,+Old+Adobe+Plaza+Shopping+Center,+Temecula,+CA+92590/@33.5070854,-117.156742,17z/data=!3m1!4b1!4m2!3m1!1s0x80db7e3330f67b85:0xe39a7bcda7352ae8" target="_blank">View Map</a>
+            <a href="https://www.google.com/maps/place/HealthStaff+Training+Institute/@33.507085,-117.156742,17z/data=!3m1!4b1!4m2!3m1!1s0x80db7e3330ed526d:0xbf1151156b7fa02f?hl=en-US" target="_blank">View Map</a>
         </div>
         <div id="location">
-            <b>San Bernadino Location</b><br>
+            <b>San Bernardino Location</b><br>
             601 S. Milliken Avenue, Suite A<br>
             Ontario, CA 91761<br>
-            <a href="https://www.google.com/maps/place/601+S+Milliken+Ave,+Ontario,+CA+91761/@34.0580499,-117.5575149,17z/data=!3m1!4b1!4m2!3m1!1s0x80c335643f1a9caf:0x6c98f417e1e2eaf" target="_blank">View Map</a>
+            <a href="https://www.google.com/maps/place/HealthStaff+Training+Institute/@34.0583941,-117.5575831,18z/data=!4m6!1m3!3m2!1s0x80c33564385cc5b7:0xff46dd52836d4978!2sHealthStaff+Training+Institute!3m1!1s0x80c33564385cc5b7:0xff46dd52836d4978!6m1!1e1?hl=en-US" target="_blank">View Map</a>
         </div>
         <div id="location">
             <b>Orange County Location</b><br>
             1970 Old Tustin Road, Suite C<br>
             Santa Ana, CA 92705<br>
-            <a href="https://www.google.com/maps/place/1970+Old+Tustin+Ave,+Santa+Ana,+CA+92705/@33.762607,-117.83605,17z/data=!3m1!4b1!4m2!3m1!1s0x80dcd9814cda9a4b:0x43c0042baf80959f" target="_blank">View Map</a>
+            <a href="https://www.google.com/maps/place/Healthstaff+Training+Institute/@33.762607,-117.83605,17z/data=!4m7!1m4!3m3!1s0x80dcd9814b61da69:0x70514a0a4c1a130!2sHealthstaff+Training+Institute!3b1!3m1!1s0x80dcd9814b61da69:0x70514a0a4c1a130?hl=en-US" target="_blank">View Map</a>
         </div>
     </div>
     <?php

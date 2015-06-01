@@ -932,3 +932,8 @@ h1 a{text-decoration: none;}
     background-position: right bottom;
 }
 
+#moodle1, #moodle2, #moodle3, #moodle4{
+    width: 300px;
+    margin: 0px 0px 15px 10px;
+}
+
