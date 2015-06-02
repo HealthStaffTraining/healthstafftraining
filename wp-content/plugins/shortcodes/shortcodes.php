@@ -193,13 +193,13 @@ function general_sidebar($args = array()){
     ?>
     <div id="sidebar_locations">
         <div id="location">
-            <b>Riverside Location</b><br>
+            <b>Riverside County Location</b><br>
             28671 Calle Cortez, Suite F<br>
             Temecula, CA 92590<br>
             <a href="https://www.google.com/maps/place/HealthStaff+Training+Institute/@33.507085,-117.156742,17z/data=!3m1!4b1!4m2!3m1!1s0x80db7e3330ed526d:0xbf1151156b7fa02f?hl=en-US" target="_blank">View Map</a>
         </div>
         <div id="location">
-            <b>San Bernardino Location</b><br>
+            <b>San Bernardino County Location</b><br>
             601 S. Milliken Avenue, Suite A<br>
             Ontario, CA 91761<br>
             <a href="https://www.google.com/maps/place/HealthStaff+Training+Institute/@34.0583941,-117.5575831,18z/data=!4m6!1m3!3m2!1s0x80c33564385cc5b7:0xff46dd52836d4978!2sHealthStaff+Training+Institute!3m1!1s0x80c33564385cc5b7:0xff46dd52836d4978!6m1!1e1?hl=en-US" target="_blank">View Map</a>
