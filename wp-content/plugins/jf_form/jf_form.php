@@ -159,11 +159,11 @@ function load_dashicons_front_end() {
             $jf_form = new jf_form();
             ob_start();
             foreach($_POST AS $key => $value){
-                echo $key." = ". $value . "<br>";
+                //echo $key." = ". $value . "<br>";
             }
                 if($_POST['action']=="submit") {
                     $insertLead = $jf_form->insertJFLead($_POST);
-                    echo "LeadID=".$insertLead."<br>";
+                    //echo "LeadID=".$insertLead."<br>";
                     $emailLead = $jf_form->emailJFLead($_POST);
                     
                     	$postfields = "firstName=".$_POST['firstName']."&lastName=".$_POST['lastName']."&email=".$_POST['email']."&phone=".$_POST['phone']."&ddlprogram=".$_POST['ddlprogram'];
@@ -189,6 +189,23 @@ function load_dashicons_front_end() {
                         $output = curl_exec($ch);
                         // Free system resources taken by cURL
                         curl_close($ch);
+
+                    $to = 'kim.e@healthstafftraining.com, ebrodie@nuovometo.com, jfitzgerald@nuovometo.com';
+                    $subject = 'A lead has been captured from the HealthStaffTraining.com site';
+                    $message = 'The information captured is:<br>';
+                    $message.= 'First Name: '.$_POST['firstName'].'<br>';
+                    $message.= 'Last Name: '.$_POST['lastName'].'<br>';
+                    $message.= 'Email Address: '.$_POST['email'].'<br>';
+                    $message.= 'Phone Number: '.$_POST['phone'].'<br>';
+                    $message.= 'Program: ('.$_POST['ddlprogram'].') '.$program_description.'<br>';
+                    $message.= "<hr>".$output;
+                    $headers  = 'MIME-Version: 1.0' . "\r\n";
+                    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+                    $headers .= 'From: webmaster@healthstafftraining.com' . "\r\n" .
+                        'Reply-To: webmaster@healthstafftraining.com' . "\r\n" .
+                        'X-Mailer: PHP/' . phpversion();
+
+                    mail($to, $subject, $message, $headers);
                     
                 }
             ?>
