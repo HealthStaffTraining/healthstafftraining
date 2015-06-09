@@ -189,23 +189,6 @@ function load_dashicons_front_end() {
                         $output = curl_exec($ch);
                         // Free system resources taken by cURL
                         curl_close($ch);
-
-                    $to = 'kim.e@healthstafftraining.com, ebrodie@nuovometo.com, jfitzgerald@nuovometo.com';
-                    $subject = 'A lead has been captured from the HealthStaffTraining.com site';
-                    $message = 'The information captured is:<br>';
-                    $message.= 'First Name: '.$_POST['firstName'].'<br>';
-                    $message.= 'Last Name: '.$_POST['lastName'].'<br>';
-                    $message.= 'Email Address: '.$_POST['email'].'<br>';
-                    $message.= 'Phone Number: '.$_POST['phone'].'<br>';
-                    $message.= 'Program: ('.$_POST['ddlprogram'].') '.$program_description.'<br>';
-                    $message.= "<hr>".$output;
-                    $headers  = 'MIME-Version: 1.0' . "\r\n";
-                    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-                    $headers .= 'From: webmaster@healthstafftraining.com' . "\r\n" .
-                        'Reply-To: webmaster@healthstafftraining.com' . "\r\n" .
-                        'X-Mailer: PHP/' . phpversion();
-
-                    mail($to, $subject, $message, $headers);
                     
                 }
             ?>
