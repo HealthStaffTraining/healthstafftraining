@@ -1,3 +1,9 @@
+#Force non-www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.healthstafftraining\.com [NC]
+RewriteRule ^(.*)$ http://healthstafftraining.com/$1 [L,R=301]
+
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
