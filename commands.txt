@@ -28,3 +28,7 @@ git tag your_tag
 
 /* Push the new tag to the repository */
 git push origin --tags
+
+/* Now if you ever need to revert the code to a particular version you can easily do so by running these commands */
+git fetch origin --tags
+git reset --hard tag_name
