@@ -1,0 +1,30 @@
+/* =============== Git Moving Files to Repository ================= */
+
+/* Pull down any new changes */
+git pull origin master
+
+/* List all new changes in your project */
+git status -s
+
+/* Add new changes to your local instance */
+git add file_path_and_name
+
+/* Commit the new adds to your local repository */
+git commit -m "Say what you did"
+
+/* Push your local repository to the master repository */
+git push origin master
+
+
+
+/* =============== Git Tagging ================= */
+/* When you have a stable version of the code it's a good idea to tag it */
+
+/* Pull down any new tags */
+git fetch origin --tags
+
+/* Create your new tag */
+git tag your_tag
+
+/* Push the new tag to the repository */
+git push origin --tags
