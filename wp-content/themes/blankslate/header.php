@@ -224,7 +224,7 @@
                 <div id="site_contain">
                     <div id="site_logo"></div>
                     <div id="student_login">Student Login</div>
-                    <div id="site_phone"><?php echo $phone; ?><br><span style="font-size: .7em;">Call Us Today!</span></div>
+                    <div id="site_phone"><span class="rTapNumber181523">(951)-694-4784</span><br><span style="font-size: .7em;">Call Us Today!</span></div>
                 </div>
             </div>
         </div>
